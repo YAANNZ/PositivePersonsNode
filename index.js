@@ -13,7 +13,6 @@ app.use(function (req, res) {
 		res.writeHead(404, {"Content-Type":"text/html;charset=UTf-8"})
 		res.end('some wrong')
 	}
-}
+})
 
 app.listen(3000)
-
